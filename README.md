@@ -1,6 +1,6 @@
 # Steam Deck Bose Media Helper
 
-A small helper for using Bose Bluetooth headphone controls with YouTube Music in Chrome on Steam Deck Gaming Mode.
+A small helper for using Bose Bluetooth headphone controls with music websites in Chrome on Steam Deck Gaming Mode.
 
 I made this because I wanted to control my music while playing games without having to switch back to Chrome every time.
 
@@ -9,7 +9,7 @@ I made this because I wanted to control my music while playing games without hav
 - Works with a Steam Deck running SteamOS
 - Designed for Bose QuietComfort headphones
 - Helps forward Bluetooth media controls
-- Intended for YouTube Music in Google Chrome
+- Intended for music websites like YouTube Music, Spotify Web Player, and other browser-based music players
 - Runs as a user service
 - Doesn't require disabling SteamOS read-only mode
 - Includes status checks and an uninstall command
@@ -25,7 +25,7 @@ I made this because I wanted to control my music while playing games without hav
 bash steamdeck-bose-media-helper.sh install
 ```
 
-Open Chrome, go to [YouTube Music](https://music.youtube.com), and start playing something. Switch back to Gaming Mode and test your headphone controls.
+Open Chrome and visit your preferred music website, such as [YouTube Music](https://music.youtube.com) or [Spotify](https://open.spotify.com). Start playing music, switch back to Gaming Mode, and test your headphone controls.
 
 ## Commands
 
@@ -51,8 +51,11 @@ bash steamdeck-bose-media-helper.sh uninstall
 
 You'll need `mpris-proxy` available on your system for the helper to install.
 
-Which controls work depends on your headphones, Bluetooth setup, and Chrome. Volume buttons may already work through SteamOS, and double-press skipping depends on how your headphones send media commands.
+Compatibility depends on your headphones, Bluetooth setup, browser, and music website. Volume buttons may already work through SteamOS, and double-press skipping depends on how your headphones send media commands.
 
 This is a small personal project. Feel free to report bugs or suggest improvements!
 
+## License
+
+MIT
 
